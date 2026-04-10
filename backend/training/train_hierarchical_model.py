@@ -1,17 +1,25 @@
 import pandas as pd
 import joblib
-import xgboost as xgb
-from sklearn.model_selection import GridSearchCV
+from catboost import CatBoostRegressor
+from sklearn.model_selection import GridSearchCV, KFold
 from sklearn.metrics import mean_absolute_error, r2_score
 import numpy as np
+import os
 
 # Files
-BATTER_TRAIN = 'training_batter_hierarchical.csv'
-BOWLER_TRAIN = 'training_bowler_hierarchical.csv'
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BATTER_TRAIN = os.path.join(BASE_DIR, '..', 'raw_data', 'training_batter_hierarchical.csv')
+BOWLER_TRAIN = os.path.join(BASE_DIR, '..', 'raw_data', 'training_bowler_hierarchical.csv')
+MODELS_DIR = os.path.join(BASE_DIR, 'models')
 
 def train():
     df_bat = pd.read_csv(BATTER_TRAIN)
     df_bowl = pd.read_csv(BOWLER_TRAIN)
+    
+    # Cast Categoricals to string explicitly
+    for col in ['player_name', 'venue', 'pitch_type']:
+        if col in df_bat.columns: df_bat[col] = df_bat[col].astype(str)
+        if col in df_bowl.columns: df_bowl[col] = df_bowl[col].astype(str)
     
     # 1. TEMPORAL SPLIT (2025 as hold-out)
     train_bat = df_bat[df_bat['year'] < 2025]
@@ -24,30 +32,38 @@ def train():
     
     # Batting Features
     bat_features = [
+        'player_name', 'venue', 'pitch_type',
         'is_afternoon', 'temp_i1', 'hum_i1', 'dew_i1',
         'global_avg', 'venue_avg', 'pitch_avg', 'recent_form_avg'
     ]
     
     # Bowling Features
     bowl_features = [
+        'player_name', 'venue', 'pitch_type', 'phase',
         'is_afternoon', 'temp_i1', 'hum_i1', 'dew_i1',
         'global_wkt_avg', 'global_econ_avg', 'venue_wkt_avg', 'recent_form_economy'
     ]
     
-    # Hyperparameter Grid
+    cat_cols_bat = ['player_name', 'venue', 'pitch_type']
+    cat_cols_bowl = ['player_name', 'venue', 'pitch_type', 'phase']
+    
+    # Deep Grid
     param_grid = {
-        'max_depth': [3, 4, 6],
-        'learning_rate': [0.01, 0.05, 0.1],
-        'n_estimators': [100, 300]
+        'iterations': [500, 800],
+        'depth': [6, 8],
+        'learning_rate': [0.03, 0.05]
     }
     
-    # 2. TRAIN BATTER MODEL
+    cv = KFold(n_splits=3, shuffle=True, random_state=42)
+    
+    # 2. TRAIN BATTER MODEL (Team Level aggregation model)
     print("\n--- Training Batter Regressor (Tuning via CV) ---")
     X_bat_train = train_bat[bat_features]
     y_bat_train = train_bat['runs']
     
-    grid_bat = GridSearchCV(xgb.XGBRegressor(random_state=42), param_grid, cv=3, scoring='neg_mean_absolute_error')
-    grid_bat.fit(X_bat_train, y_bat_train)
+    cat_bat = CatBoostRegressor(random_state=42, verbose=0)
+    grid_bat = GridSearchCV(cat_bat, param_grid, cv=cv, scoring='neg_mean_absolute_error', n_jobs=-1)
+    grid_bat.fit(X_bat_train, y_bat_train, **{'cat_features': cat_cols_bat})
     
     best_bat = grid_bat.best_estimator_
     print(f"Best Batter Params: {grid_bat.best_params_}")
@@ -62,8 +78,9 @@ def train():
     X_bowl_train = train_bowl[bowl_features]
     y_bowl_train = train_bowl['economy']
     
-    grid_bowl = GridSearchCV(xgb.XGBRegressor(random_state=42), param_grid, cv=3, scoring='neg_mean_absolute_error')
-    grid_bowl.fit(X_bowl_train, y_bowl_train)
+    cat_bowl = CatBoostRegressor(random_state=42, verbose=0)
+    grid_bowl = GridSearchCV(cat_bowl, param_grid, cv=cv, scoring='neg_mean_absolute_error', n_jobs=-1)
+    grid_bowl.fit(X_bowl_train, y_bowl_train, **{'cat_features': cat_cols_bowl})
     
     best_bowl = grid_bowl.best_estimator_
     print(f"Best Bowler Params: {grid_bowl.best_params_}")
@@ -74,11 +91,12 @@ def train():
     print(f"Bowler Econ MAE (2025 Hold-out): {mae_bowl:.2f}")
     
     # Save models
-    joblib.dump(best_bat, 'models/batter_runs_model.pkl')
-    joblib.dump(best_bowl, 'models/bowler_econ_model.pkl')
-    print("\nSUCCESS: Hierarchical models trained and saved!")
+    if not os.path.exists(MODELS_DIR):
+        os.makedirs(MODELS_DIR)
+        
+    best_bat.save_model(os.path.join(MODELS_DIR, 'batter_runs_model.cbm'))
+    best_bowl.save_model(os.path.join(MODELS_DIR, 'bowler_econ_model.cbm'))
+    print("\nSUCCESS: Hierarchical models trained and saved as .cbm!")
 
 if __name__ == "__main__":
-    import os
-    if not os.path.exists('models'): os.makedirs('models')
     train()

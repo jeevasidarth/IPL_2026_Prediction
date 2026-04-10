@@ -2,12 +2,12 @@ import pandas as pd
 import numpy as np
 import os
 
-# Paths
-BATTER_FILE = 'batter_performance_comprehensive.csv'
-BOWLER_FILE = 'bowler_performance_comprehensive.csv'
-ENV_FILE = 'ipl_2019_2025_environmental_final_v2.csv'
-OUTPUT_BATTER = 'training_batter_hierarchical.csv'
-OUTPUT_BOWLER = 'training_bowler_hierarchical.csv'
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BATTER_FILE = os.path.join(BASE_DIR, '..', 'raw_data', 'batter_performance_comprehensive.csv')
+BOWLER_FILE = os.path.join(BASE_DIR, '..', 'raw_data', 'bowler_performance_comprehensive.csv')
+ENV_FILE = os.path.join(BASE_DIR, '..', 'raw_data', 'ipl_2019_2025_environmental_final_v2.csv')
+OUTPUT_BATTER = os.path.join(BASE_DIR, '..', 'raw_data', 'training_batter_hierarchical.csv')
+OUTPUT_BOWLER = os.path.join(BASE_DIR, '..', 'raw_data', 'training_bowler_hierarchical.csv')
 
 def build():
     print("Loading datasets...")
