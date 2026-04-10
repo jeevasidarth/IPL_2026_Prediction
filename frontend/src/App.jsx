@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { ComposedChart, Line, Scatter, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from 'recharts'
+import { Analytics } from '@vercel/analytics/react'
 import './App.css'
 
 function App() {
@@ -750,6 +751,7 @@ const MatchWorm = ({ scenarioA, scenarioB }) => {
       <footer className="footer">
         <p>Verified against 2025 hold-out set | MAE: 16.3 runs</p>
       </footer>
+      <Analytics />
     </div>
   )
 }
