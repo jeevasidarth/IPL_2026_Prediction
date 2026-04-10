@@ -3,6 +3,7 @@ import { ComposedChart, Line, Scatter, XAxis, YAxis, CartesianGrid, Tooltip, Res
 import './App.css'
 
 function App() {
+  const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:8000';
   const [metadata, setMetadata] = useState({ teams: [], squads: {}, venues: [] })
   const [selection, setSelection] = useState({ 
     team1: 'CSK', 
@@ -35,7 +36,7 @@ function App() {
     if (!compSelection.p1 || !compSelection.p2) return;
     setCompLoading(true)
     try {
-      const res = await fetch('http://localhost:8000/compare-players', {
+      const res = await fetch(`${API_BASE}/compare-players`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -55,7 +56,7 @@ function App() {
 
   // Fetch Metadata on Load
   useEffect(() => {
-    fetch('http://localhost:8000/metadata')
+    fetch(`${API_BASE}/metadata`)
       .then(res => {
         if (!res.ok) throw new Error("Backend Error")
         return res.json()
@@ -70,7 +71,7 @@ function App() {
       })
 
     // Fetch Tournament Results
-    fetch('http://localhost:8000/tournament-results')
+    fetch(`${API_BASE}/tournament-results`)
       .then(res => res.json())
       .then(data => {
         if (data.status === 'success') {
@@ -93,7 +94,7 @@ function App() {
   const handlePredict = async () => {
     setLoading(true)
     try {
-      const res = await fetch('http://localhost:8000/predict', {
+      const res = await fetch(`${API_BASE}/predict`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(selection)
@@ -110,7 +111,7 @@ function App() {
   const handleSmartPick = async (tKey) => {
     const teamName = selection[tKey];
     try {
-      const res = await fetch('http://localhost:8000/smart-pick', {
+      const res = await fetch(`${API_BASE}/smart-pick`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ 
