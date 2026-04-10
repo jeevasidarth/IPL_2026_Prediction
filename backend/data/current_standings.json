@@ -1,0 +1,16 @@
+{
+    "as_of": "2026-04-10",
+    "completed_matches": 15,
+    "standings": {
+        "RR": {"points": 6, "wins": 3, "losses": 0, "nr": 0, "played": 3, "nrr": 2.403},
+        "PBKS": {"points": 5, "wins": 2, "losses": 0, "nr": 1, "played": 3, "nrr": 0.637},
+        "RCB": {"points": 4, "wins": 2, "losses": 0, "nr": 0, "played": 2, "nrr": 2.501},
+        "DC": {"points": 4, "wins": 2, "losses": 1, "nr": 0, "played": 3, "nrr": 0.811},
+        "LSG": {"points": 4, "wins": 2, "losses": 1, "nr": 0, "played": 3, "nrr": -0.359},
+        "SRH": {"points": 2, "wins": 1, "losses": 2, "nr": 0, "played": 3, "nrr": 0.275},
+        "GT": {"points": 2, "wins": 1, "losses": 2, "nr": 0, "played": 3, "nrr": -0.270},
+        "MI": {"points": 2, "wins": 1, "losses": 2, "nr": 0, "played": 3, "nrr": -0.715},
+        "KKR": {"points": 1, "wins": 0, "losses": 3, "nr": 1, "played": 4, "nrr": -1.315},
+        "CSK": {"points": 0, "wins": 0, "losses": 3, "nr": 0, "played": 3, "nrr": -2.517}
+    }
+}

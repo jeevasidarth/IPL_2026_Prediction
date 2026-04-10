@@ -1,0 +1,978 @@
+{
+    "standings": [
+        {
+            "rank": 1,
+            "team": "RR",
+            "played": 18,
+            "wins": 15,
+            "losses": 3,
+            "points": 30,
+            "nrr": 0.484
+        },
+        {
+            "rank": 2,
+            "team": "RCB",
+            "played": 17,
+            "wins": 15,
+            "losses": 2,
+            "points": 30,
+            "nrr": 0.356
+        },
+        {
+            "rank": 3,
+            "team": "KKR",
+            "played": 18,
+            "wins": 14,
+            "losses": 3,
+            "points": 29,
+            "nrr": 0.327
+        },
+        {
+            "rank": 4,
+            "team": "SRH",
+            "played": 18,
+            "wins": 10,
+            "losses": 8,
+            "points": 20,
+            "nrr": -0.018
+        },
+        {
+            "rank": 5,
+            "team": "CSK",
+            "played": 18,
+            "wins": 10,
+            "losses": 8,
+            "points": 20,
+            "nrr": -0.353
+        },
+        {
+            "rank": 6,
+            "team": "PBKS",
+            "played": 18,
+            "wins": 9,
+            "losses": 8,
+            "points": 19,
+            "nrr": -0.022
+        },
+        {
+            "rank": 7,
+            "team": "LSG",
+            "played": 18,
+            "wins": 7,
+            "losses": 11,
+            "points": 14,
+            "nrr": -0.168
+        },
+        {
+            "rank": 8,
+            "team": "MI",
+            "played": 18,
+            "wins": 3,
+            "losses": 15,
+            "points": 6,
+            "nrr": -0.189
+        },
+        {
+            "rank": 9,
+            "team": "GT",
+            "played": 17,
+            "wins": 3,
+            "losses": 14,
+            "points": 6,
+            "nrr": -0.206
+        },
+        {
+            "rank": 10,
+            "team": "DC",
+            "played": 18,
+            "wins": 2,
+            "losses": 16,
+            "points": 4,
+            "nrr": -0.173
+        }
+    ],
+    "playoffs": {
+        "qualifier_1": {
+            "team1": "RR",
+            "team2": "RCB",
+            "winner": "RR"
+        },
+        "eliminator": {
+            "team1": "KKR",
+            "team2": "SRH",
+            "winner": "KKR"
+        },
+        "qualifier_2": {
+            "team1": "RCB",
+            "team2": "KKR",
+            "winner": "KKR"
+        },
+        "final": {
+            "team1": "RR",
+            "team2": "KKR",
+            "winner": "KKR",
+            "score": {
+                "team1_score": 173,
+                "team2_score": 186,
+                "win_prob": 0.261149993915751,
+                "team1_projections": {
+                    "Donovan Ferreira": {
+                        "role": "batter",
+                        "runs": 20.770370588664555,
+                        "balls": 14.319905842555354,
+                        "econ": 0,
+                        "wkts": 0,
+                        "overs": 0,
+                        "phases": [
+                            {
+                                "phase": "Powerplay",
+                                "sr": 104.7,
+                                "runs": 5.8
+                            },
+                            {
+                                "phase": "Middle",
+                                "sr": 94.7,
+                                "runs": 8.2
+                            },
+                            {
+                                "phase": "Death",
+                                "sr": 161.0,
+                                "runs": 6.8
+                            }
+                        ]
+                    },
+                    "Manish Pandey": {
+                        "role": "bowler",
+                        "runs": 0,
+                        "balls": 0,
+                        "econ": 9.41004265996102,
+                        "wkts": 0.8633191133463266,
+                        "overs": 3.3333333333333335,
+                        "phases": [
+                            {
+                                "phase": "Powerplay",
+                                "econ": 8.8,
+                                "wkts": 0.32
+                            },
+                            {
+                                "phase": "Middle",
+                                "econ": 8.8,
+                                "wkts": 0.47
+                            },
+                            {
+                                "phase": "Death",
+                                "econ": 11.2,
+                                "wkts": 0.07
+                            }
+                        ]
+                    },
+                    "Angkrish Raghuvanshi": {
+                        "role": "bowler",
+                        "runs": 0,
+                        "balls": 0,
+                        "econ": 9.41004265996102,
+                        "wkts": 0.8633191133463266,
+                        "overs": 3.3333333333333335,
+                        "phases": [
+                            {
+                                "phase": "Powerplay",
+                                "econ": 8.8,
+                                "wkts": 0.32
+                            },
+                            {
+                                "phase": "Middle",
+                                "econ": 8.8,
+                                "wkts": 0.47
+                            },
+                            {
+                                "phase": "Death",
+                                "econ": 11.2,
+                                "wkts": 0.07
+                            }
+                        ]
+                    },
+                    "Harshit Rana": {
+                        "role": "bowler",
+                        "runs": 0,
+                        "balls": 0,
+                        "econ": 0,
+                        "wkts": 0,
+                        "overs": 0,
+                        "phases": []
+                    },
+                    "Mustafizur Rahman": {
+                        "role": "bowler",
+                        "runs": 0,
+                        "balls": 0,
+                        "econ": 0,
+                        "wkts": 0,
+                        "overs": 0,
+                        "phases": []
+                    },
+                    "Yashasvi Jaiswal": {
+                        "role": "batter",
+                        "runs": 32.62946363082073,
+                        "balls": 22.614202334520826,
+                        "econ": 0,
+                        "wkts": 0,
+                        "overs": 0,
+                        "phases": [
+                            {
+                                "phase": "Powerplay",
+                                "sr": 176.5,
+                                "runs": 9.8
+                            },
+                            {
+                                "phase": "Middle",
+                                "sr": 148.1,
+                                "runs": 12.8
+                            },
+                            {
+                                "phase": "Death",
+                                "sr": 238.7,
+                                "runs": 10.1
+                            }
+                        ]
+                    },
+                    "Jofra Archer": {
+                        "role": "batter",
+                        "runs": 0,
+                        "balls": 0,
+                        "econ": 0,
+                        "wkts": 0,
+                        "overs": 0,
+                        "phases": []
+                    },
+                    "Anukul Roy": {
+                        "role": "bowler",
+                        "runs": 0,
+                        "balls": 0,
+                        "econ": 9.41004265996102,
+                        "wkts": 0.8633191133463266,
+                        "overs": 3.3333333333333335,
+                        "phases": [
+                            {
+                                "phase": "Powerplay",
+                                "econ": 8.8,
+                                "wkts": 0.32
+                            },
+                            {
+                                "phase": "Middle",
+                                "econ": 8.8,
+                                "wkts": 0.47
+                            },
+                            {
+                                "phase": "Death",
+                                "econ": 11.2,
+                                "wkts": 0.07
+                            }
+                        ]
+                    },
+                    "Ajinkya Rahane": {
+                        "role": "bowler",
+                        "runs": 0,
+                        "balls": 0,
+                        "econ": 9.658446402023388,
+                        "wkts": 0.7805178659922037,
+                        "overs": 3.3333333333333335,
+                        "phases": [
+                            {
+                                "phase": "Powerplay",
+                                "econ": 9.1,
+                                "wkts": 0.29
+                            },
+                            {
+                                "phase": "Middle",
+                                "econ": 9.1,
+                                "wkts": 0.43
+                            },
+                            {
+                                "phase": "Death",
+                                "econ": 11.3,
+                                "wkts": 0.05
+                            }
+                        ]
+                    },
+                    "Sunil Narine": {
+                        "role": "bowler",
+                        "runs": 0,
+                        "balls": 0,
+                        "econ": 7.7490062939668185,
+                        "wkts": 1.4169979020110601,
+                        "overs": 3.3333333333333335,
+                        "phases": [
+                            {
+                                "phase": "Powerplay",
+                                "econ": 7.5,
+                                "wkts": 0.45
+                            },
+                            {
+                                "phase": "Middle",
+                                "econ": 7.2,
+                                "wkts": 0.73
+                            },
+                            {
+                                "phase": "Death",
+                                "econ": 9.1,
+                                "wkts": 0.25
+                            }
+                        ]
+                    },
+                    "Ravi Bishnoi": {
+                        "role": "batter",
+                        "runs": 0,
+                        "balls": 0,
+                        "econ": 0,
+                        "wkts": 0,
+                        "overs": 0,
+                        "phases": []
+                    },
+                    "Sam Curran": {
+                        "role": "batter",
+                        "runs": 0,
+                        "balls": 0,
+                        "econ": 0,
+                        "wkts": 0,
+                        "overs": 0,
+                        "phases": []
+                    },
+                    "Shimron Hetmyer": {
+                        "role": "batter",
+                        "runs": 25.021449041749772,
+                        "balls": 17.34807309491282,
+                        "econ": 0,
+                        "wkts": 0,
+                        "overs": 0,
+                        "phases": [
+                            {
+                                "phase": "Powerplay",
+                                "sr": 123.8,
+                                "runs": 6.8
+                            },
+                            {
+                                "phase": "Middle",
+                                "sr": 120.4,
+                                "runs": 10.4
+                            },
+                            {
+                                "phase": "Death",
+                                "sr": 184.0,
+                                "runs": 7.8
+                            }
+                        ]
+                    },
+                    "Umran Malik": {
+                        "role": "bowler",
+                        "runs": 0,
+                        "balls": 0,
+                        "econ": 0,
+                        "wkts": 0,
+                        "overs": 0,
+                        "phases": []
+                    },
+                    "Vaibhav Arora": {
+                        "role": "bowler",
+                        "runs": 0,
+                        "balls": 0,
+                        "econ": 0,
+                        "wkts": 0,
+                        "overs": 0,
+                        "phases": []
+                    },
+                    "Dhruv Jurel": {
+                        "role": "batter",
+                        "runs": 23.91742738603803,
+                        "balls": 16.530732857314014,
+                        "econ": 0,
+                        "wkts": 0,
+                        "overs": 0,
+                        "phases": [
+                            {
+                                "phase": "Powerplay",
+                                "sr": 118.0,
+                                "runs": 6.5
+                            },
+                            {
+                                "phase": "Middle",
+                                "sr": 112.6,
+                                "runs": 9.7
+                            },
+                            {
+                                "phase": "Death",
+                                "sr": 181.4,
+                                "runs": 7.7
+                            }
+                        ]
+                    },
+                    "Kwena Maphaka": {
+                        "role": "batter",
+                        "runs": 0,
+                        "balls": 0,
+                        "econ": 0,
+                        "wkts": 0,
+                        "overs": 0,
+                        "phases": []
+                    },
+                    "Cameron Green": {
+                        "role": "bowler",
+                        "runs": 0,
+                        "balls": 0,
+                        "econ": 0,
+                        "wkts": 0,
+                        "overs": 0,
+                        "phases": []
+                    },
+                    "Lhuan-Dre Pretorius": {
+                        "role": "batter",
+                        "runs": 20.770370588664555,
+                        "balls": 14.319905842555354,
+                        "econ": 0,
+                        "wkts": 0,
+                        "overs": 0,
+                        "phases": [
+                            {
+                                "phase": "Powerplay",
+                                "sr": 104.7,
+                                "runs": 5.8
+                            },
+                            {
+                                "phase": "Middle",
+                                "sr": 94.7,
+                                "runs": 8.2
+                            },
+                            {
+                                "phase": "Death",
+                                "sr": 161.0,
+                                "runs": 6.8
+                            }
+                        ]
+                    },
+                    "Riyan Parag": {
+                        "role": "batter",
+                        "runs": 25.639721651387084,
+                        "balls": 17.80141014180211,
+                        "econ": 0,
+                        "wkts": 0,
+                        "overs": 0,
+                        "phases": [
+                            {
+                                "phase": "Powerplay",
+                                "sr": 125.1,
+                                "runs": 6.9
+                            },
+                            {
+                                "phase": "Middle",
+                                "sr": 125.7,
+                                "runs": 10.8
+                            },
+                            {
+                                "phase": "Death",
+                                "sr": 186.2,
+                                "runs": 7.9
+                            }
+                        ]
+                    },
+                    "Ravindra Jadeja": {
+                        "role": "batter",
+                        "runs": 24.650263249465212,
+                        "balls": 17.065769886339524,
+                        "econ": 0,
+                        "wkts": 0,
+                        "overs": 0,
+                        "phases": [
+                            {
+                                "phase": "Powerplay",
+                                "sr": 121.6,
+                                "runs": 6.7
+                            },
+                            {
+                                "phase": "Middle",
+                                "sr": 117.6,
+                                "runs": 10.1
+                            },
+                            {
+                                "phase": "Death",
+                                "sr": 184.0,
+                                "runs": 7.8
+                            }
+                        ]
+                    },
+                    "Rinku Singh": {
+                        "role": "bowler",
+                        "runs": 0,
+                        "balls": 0,
+                        "econ": 9.41004265996102,
+                        "wkts": 0.8633191133463266,
+                        "overs": 3.3333333333333335,
+                        "phases": [
+                            {
+                                "phase": "Powerplay",
+                                "econ": 8.8,
+                                "wkts": 0.32
+                            },
+                            {
+                                "phase": "Middle",
+                                "econ": 8.8,
+                                "wkts": 0.47
+                            },
+                            {
+                                "phase": "Death",
+                                "econ": 11.2,
+                                "wkts": 0.07
+                            }
+                        ]
+                    }
+                },
+                "team2_projections": {
+                    "Donovan Ferreira": {
+                        "role": "bowler",
+                        "runs": 0,
+                        "balls": 0,
+                        "econ": 9.41004265996102,
+                        "wkts": 0.8633191133463266,
+                        "overs": 3.3333333333333335,
+                        "phases": [
+                            {
+                                "phase": "Powerplay",
+                                "econ": 8.8,
+                                "wkts": 0.32
+                            },
+                            {
+                                "phase": "Middle",
+                                "econ": 8.8,
+                                "wkts": 0.47
+                            },
+                            {
+                                "phase": "Death",
+                                "econ": 11.2,
+                                "wkts": 0.07
+                            }
+                        ]
+                    },
+                    "Manish Pandey": {
+                        "role": "batter",
+                        "runs": 27.961580235420755,
+                        "balls": 18.025886376934256,
+                        "econ": 0,
+                        "wkts": 0,
+                        "overs": 0,
+                        "phases": [
+                            {
+                                "phase": "Powerplay",
+                                "sr": 148.5,
+                                "runs": 7.8
+                            },
+                            {
+                                "phase": "Middle",
+                                "sr": 148.9,
+                                "runs": 11.7
+                            },
+                            {
+                                "phase": "Death",
+                                "sr": 199.7,
+                                "runs": 8.4
+                            }
+                        ]
+                    },
+                    "Angkrish Raghuvanshi": {
+                        "role": "batter",
+                        "runs": 30.81946781164382,
+                        "balls": 19.74961746335809,
+                        "econ": 0,
+                        "wkts": 0,
+                        "overs": 0,
+                        "phases": [
+                            {
+                                "phase": "Powerplay",
+                                "sr": 158.8,
+                                "runs": 8.4
+                            },
+                            {
+                                "phase": "Middle",
+                                "sr": 158.3,
+                                "runs": 12.5
+                            },
+                            {
+                                "phase": "Death",
+                                "sr": 237.0,
+                                "runs": 10.0
+                            }
+                        ]
+                    },
+                    "Harshit Rana": {
+                        "role": "batter",
+                        "runs": 23.14551099256511,
+                        "balls": 14.966540850261822,
+                        "econ": 0,
+                        "wkts": 0,
+                        "overs": 0,
+                        "phases": [
+                            {
+                                "phase": "Powerplay",
+                                "sr": 123.0,
+                                "runs": 6.5
+                            },
+                            {
+                                "phase": "Middle",
+                                "sr": 126.6,
+                                "runs": 10.0
+                            },
+                            {
+                                "phase": "Death",
+                                "sr": 158.7,
+                                "runs": 6.7
+                            }
+                        ]
+                    },
+                    "Mustafizur Rahman": {
+                        "role": "batter",
+                        "runs": 0,
+                        "balls": 0,
+                        "econ": 0,
+                        "wkts": 0,
+                        "overs": 0,
+                        "phases": []
+                    },
+                    "Yashasvi Jaiswal": {
+                        "role": "bowler",
+                        "runs": 0,
+                        "balls": 0,
+                        "econ": 9.543563968284024,
+                        "wkts": 0.8188120105719915,
+                        "overs": 3.3333333333333335,
+                        "phases": [
+                            {
+                                "phase": "Powerplay",
+                                "econ": 9.0,
+                                "wkts": 0.3
+                            },
+                            {
+                                "phase": "Middle",
+                                "econ": 9.1,
+                                "wkts": 0.44
+                            },
+                            {
+                                "phase": "Death",
+                                "econ": 11.0,
+                                "wkts": 0.08
+                            }
+                        ]
+                    },
+                    "Jofra Archer": {
+                        "role": "bowler",
+                        "runs": 0,
+                        "balls": 0,
+                        "econ": 0,
+                        "wkts": 0,
+                        "overs": 0,
+                        "phases": []
+                    },
+                    "Anukul Roy": {
+                        "role": "batter",
+                        "runs": 24.168968111320808,
+                        "balls": 15.524308772246048,
+                        "econ": 0,
+                        "wkts": 0,
+                        "overs": 0,
+                        "phases": [
+                            {
+                                "phase": "Powerplay",
+                                "sr": 125.2,
+                                "runs": 6.6
+                            },
+                            {
+                                "phase": "Middle",
+                                "sr": 126.5,
+                                "runs": 10.0
+                            },
+                            {
+                                "phase": "Death",
+                                "sr": 180.6,
+                                "runs": 7.6
+                            }
+                        ]
+                    },
+                    "Ajinkya Rahane": {
+                        "role": "batter",
+                        "runs": 28.854798889580557,
+                        "balls": 18.632918769774776,
+                        "econ": 0,
+                        "wkts": 0,
+                        "overs": 0,
+                        "phases": [
+                            {
+                                "phase": "Powerplay",
+                                "sr": 153.5,
+                                "runs": 8.1
+                            },
+                            {
+                                "phase": "Middle",
+                                "sr": 155.8,
+                                "runs": 12.3
+                            },
+                            {
+                                "phase": "Death",
+                                "sr": 201.6,
+                                "runs": 8.5
+                            }
+                        ]
+                    },
+                    "Sunil Narine": {
+                        "role": "batter",
+                        "runs": 27.237220620742946,
+                        "balls": 17.576418995178955,
+                        "econ": 0,
+                        "wkts": 0,
+                        "overs": 0,
+                        "phases": [
+                            {
+                                "phase": "Powerplay",
+                                "sr": 145.3,
+                                "runs": 7.7
+                            },
+                            {
+                                "phase": "Middle",
+                                "sr": 145.9,
+                                "runs": 11.5
+                            },
+                            {
+                                "phase": "Death",
+                                "sr": 192.0,
+                                "runs": 8.1
+                            }
+                        ]
+                    },
+                    "Ravi Bishnoi": {
+                        "role": "bowler",
+                        "runs": 0,
+                        "balls": 0,
+                        "econ": 0,
+                        "wkts": 0,
+                        "overs": 0,
+                        "phases": []
+                    },
+                    "Sam Curran": {
+                        "role": "bowler",
+                        "runs": 0,
+                        "balls": 0,
+                        "econ": 0,
+                        "wkts": 0,
+                        "overs": 0,
+                        "phases": []
+                    },
+                    "Shimron Hetmyer": {
+                        "role": "bowler",
+                        "runs": 0,
+                        "balls": 0,
+                        "econ": 9.41004265996102,
+                        "wkts": 0.8633191133463266,
+                        "overs": 3.3333333333333335,
+                        "phases": [
+                            {
+                                "phase": "Powerplay",
+                                "econ": 8.8,
+                                "wkts": 0.32
+                            },
+                            {
+                                "phase": "Middle",
+                                "econ": 8.8,
+                                "wkts": 0.47
+                            },
+                            {
+                                "phase": "Death",
+                                "econ": 11.2,
+                                "wkts": 0.07
+                            }
+                        ]
+                    },
+                    "Umran Malik": {
+                        "role": "batter",
+                        "runs": 0,
+                        "balls": 0,
+                        "econ": 0,
+                        "wkts": 0,
+                        "overs": 0,
+                        "phases": []
+                    },
+                    "Vaibhav Arora": {
+                        "role": "batter",
+                        "runs": 0,
+                        "balls": 0,
+                        "econ": 0,
+                        "wkts": 0,
+                        "overs": 0,
+                        "phases": []
+                    },
+                    "Dhruv Jurel": {
+                        "role": "bowler",
+                        "runs": 0,
+                        "balls": 0,
+                        "econ": 9.41004265996102,
+                        "wkts": 0.8633191133463266,
+                        "overs": 3.3333333333333335,
+                        "phases": [
+                            {
+                                "phase": "Powerplay",
+                                "econ": 8.8,
+                                "wkts": 0.32
+                            },
+                            {
+                                "phase": "Middle",
+                                "econ": 8.8,
+                                "wkts": 0.47
+                            },
+                            {
+                                "phase": "Death",
+                                "econ": 11.2,
+                                "wkts": 0.07
+                            }
+                        ]
+                    },
+                    "Kwena Maphaka": {
+                        "role": "bowler",
+                        "runs": 0,
+                        "balls": 0,
+                        "econ": 0,
+                        "wkts": 0,
+                        "overs": 0,
+                        "phases": []
+                    },
+                    "Cameron Green": {
+                        "role": "batter",
+                        "runs": 0,
+                        "balls": 0,
+                        "econ": 0,
+                        "wkts": 0,
+                        "overs": 0,
+                        "phases": []
+                    },
+                    "Lhuan-Dre Pretorius": {
+                        "role": "bowler",
+                        "runs": 0,
+                        "balls": 0,
+                        "econ": 9.41004265996102,
+                        "wkts": 0.8633191133463266,
+                        "overs": 3.3333333333333335,
+                        "phases": [
+                            {
+                                "phase": "Powerplay",
+                                "econ": 8.8,
+                                "wkts": 0.32
+                            },
+                            {
+                                "phase": "Middle",
+                                "econ": 8.8,
+                                "wkts": 0.47
+                            },
+                            {
+                                "phase": "Death",
+                                "econ": 11.2,
+                                "wkts": 0.07
+                            }
+                        ]
+                    },
+                    "Riyan Parag": {
+                        "role": "bowler",
+                        "runs": 0,
+                        "balls": 0,
+                        "econ": 9.282287046693641,
+                        "wkts": 0.9059043177687861,
+                        "overs": 3.3333333333333335,
+                        "phases": [
+                            {
+                                "phase": "Powerplay",
+                                "econ": 8.8,
+                                "wkts": 0.32
+                            },
+                            {
+                                "phase": "Middle",
+                                "econ": 8.6,
+                                "wkts": 0.51
+                            },
+                            {
+                                "phase": "Death",
+                                "econ": 11.1,
+                                "wkts": 0.07
+                            }
+                        ]
+                    },
+                    "Ravindra Jadeja": {
+                        "role": "bowler",
+                        "runs": 0,
+                        "balls": 0,
+                        "econ": 0,
+                        "wkts": 0,
+                        "overs": 0,
+                        "phases": []
+                    },
+                    "Rinku Singh": {
+                        "role": "batter",
+                        "runs": 24.168968111320808,
+                        "balls": 15.524308772246048,
+                        "econ": 0,
+                        "wkts": 0,
+                        "overs": 0,
+                        "phases": [
+                            {
+                                "phase": "Powerplay",
+                                "sr": 125.2,
+                                "runs": 6.6
+                            },
+                            {
+                                "phase": "Middle",
+                                "sr": 126.5,
+                                "runs": 10.0
+                            },
+                            {
+                                "phase": "Death",
+                                "sr": 180.6,
+                                "runs": 7.6
+                            }
+                        ]
+                    }
+                },
+                "team1_phases": [
+                    {
+                        "phase": "Powerplay",
+                        "runs": 48.3,
+                        "sr": 124.9,
+                        "econ": 8.6
+                    },
+                    {
+                        "phase": "Middle",
+                        "runs": 70.1,
+                        "sr": 116.3,
+                        "econ": 8.6
+                    },
+                    {
+                        "phase": "Death",
+                        "runs": 54.9,
+                        "sr": 185.2,
+                        "econ": 10.9
+                    }
+                ],
+                "team2_phases": [
+                    {
+                        "phase": "Powerplay",
+                        "runs": 51.6,
+                        "sr": 139.9,
+                        "econ": 8.8
+                    },
+                    {
+                        "phase": "Middle",
+                        "runs": 77.9,
+                        "sr": 141.2,
+                        "econ": 8.8
+                    },
+                    {
+                        "phase": "Death",
+                        "runs": 56.8,
+                        "sr": 192.9,
+                        "econ": 11.1
+                    }
+                ]
+            }
+        }
+    },
+    "champion": "KKR"
+}

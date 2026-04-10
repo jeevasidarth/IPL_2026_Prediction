@@ -22,7 +22,8 @@ raw_data/
 *.csv
 *.xlsx
 *.xls
-*.json
+# Allow JSON files in data directories
+!backend/data/*.json
 
 # Python
 __pycache__/

@@ -1,0 +1,21 @@
+{
+    "M Chinnaswamy Stadium": {"pitch_type": "Batting", "ground_size": "Small", "avg_score": 180},
+    "MA Chidambaram Stadium, Chepauk, Chennai": {"pitch_type": "Spin", "ground_size": "Large", "avg_score": 155},
+    "Arun Jaitley Stadium": {"pitch_type": "Balanced", "ground_size": "Medium", "avg_score": 165},
+    "Rajiv Gandhi International Stadium, Uppal, Hyderabad": {"pitch_type": "Balanced", "ground_size": "Large", "avg_score": 160},
+    "Wankhede Stadium, Mumbai": {"pitch_type": "Batting", "ground_size": "Medium", "avg_score": 175},
+    "Eden Gardens, Kolkata": {"pitch_type": "Batting", "ground_size": "Large", "avg_score": 170},
+    "Punjab Cricket Association IS Bindra Stadium, Mohali": {"pitch_type": "Pace", "ground_size": "Large", "avg_score": 165},
+    "Sawai Mansingh Stadium": {"pitch_type": "Balanced", "ground_size": "Large", "avg_score": 155},
+    "Narendra Modi Stadium, Ahmedabad": {"pitch_type": "Pace", "ground_size": "Huge", "avg_score": 170},
+    "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow": {"pitch_type": "Spin", "ground_size": "Large", "avg_score": 145},
+    "Dubai International Cricket Stadium": {"pitch_type": "Balanced", "ground_size": "Large", "avg_score": 160},
+    "Sheikh Zayed Stadium": {"pitch_type": "Balanced", "ground_size": "Large", "avg_score": 155},
+    "Sharjah Cricket Stadium": {"pitch_type": "Batting", "ground_size": "Small", "avg_score": 185},
+    "Maharashtra Cricket Association Stadium, Pune": {"pitch_type": "Batting", "ground_size": "Medium", "avg_score": 170},
+    "Dr DY Patil Sports Academy, Mumbai": {"pitch_type": "Balanced", "ground_size": "Large", "avg_score": 165},
+    "Brabourne Stadium, Mumbai": {"pitch_type": "Batting", "ground_size": "Medium", "avg_score": 180},
+    "Himachal Pradesh Cricket Association Stadium, Dharamsala": {"pitch_type": "Pace", "ground_size": "Medium", "avg_score": 175},
+    "Barsapara Cricket Stadium, Guwahati": {"pitch_type": "Batting", "ground_size": "Medium", "avg_score": 180},
+    "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium": {"pitch_type": "Spin", "ground_size": "Medium", "avg_score": 155}
+}

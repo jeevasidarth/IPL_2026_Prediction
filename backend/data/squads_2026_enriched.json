@@ -1,0 +1,128 @@
+{
+    "CSK": {
+        "Batters": [
+            "MS Dhoni", "Ruturaj Gaikwad", "Sanju Samson", "Ayush Mhatre", "Dewald Brevis", 
+            "Shivam Dube", "Urvil Patel", "Jamie Overton", "Matthew Short", "Sarfaraz Khan", 
+            "Aman Khan", "Prashant Veer", "Kartik Sharma", "Zak Foulkes"
+        ],
+        "Bowlers": [
+            "Matt Henry", "Noor Ahmad", "Nathan Ellis", "Shreyas Gopal", "Khaleel Ahmed", 
+            "Ramakrishna Ghosh", "Mukesh Choudhary", "Gurjapneet Singh", "Anshul Kamboj", 
+            "Rahul Chahar", "Akeal Hosein", "Jamie Overton", "Zak Foulkes"
+        ]
+    },
+    "RCB": {
+        "Batters": [
+            "Virat Kohli", "Phil Salt", "Rajat Patidar", "Devdutt Padikkal", "Tim David", 
+            "Krunal Pandya", "Romario Shepherd", "Jitesh Sharma", "Jacob Bethell", 
+            "Venkatesh Iyer", "Jordan Cox", "Swapnil Singh"
+        ],
+        "Bowlers": [
+            "Bhuvneshwar Kumar", "Yash Dayal", "Josh Hazlewood", "Suyash Sharma", 
+            "Abhinandan Singh", "Nuwan Thushara", "Rasikh Dar", "Swapnil Singh", 
+            "Mangesh Yadav", "Jacob Duffy", "Satvik Deswal", "Vicky Ostwal", 
+            "Vihaan Malhotra", "Kanishk Chouhan", "Romario Shepherd", "Krunal Pandya"
+        ]
+    },
+    "MI": {
+        "Batters": [
+            "Rohit Sharma", "Hardik Pandya", "Suryakumar Yadav", "Quinton de Kock", 
+            "Sherfane Rutherford", "Naman Dhir", "Robin Minz", "Ryan Rickelton", 
+            "Tilak Varma", "Will Jacks", "Danish Malewar", "Mayank Rawat"
+        ],
+        "Bowlers": [
+            "Jasprit Bumrah", "Shardul Thakur", "Mayank Markande", "AM Ghazanfar", 
+            "Ashwani Kumar", "Corbin Bosch", "Deepak Chahar", "Mitchell Santner", 
+            "Raghu Sharma", "Raj Bawa", "Trent Boult", "Atharva Ankolekar", 
+            "Mohammad Izhar", "Will Jacks", "Hardik Pandya"
+        ]
+    },
+    "GT": {
+        "Batters": [
+            "Shubman Gill", "Jos Buttler", "Anuj Rawat", "Glenn Phillips", 
+            "Kumar Kushagra", "Nishant Sindhu", "B Sai Sudharsan", "M Shahrukh Khan", 
+            "Tom Banton", "Washington Sundar", "Rahul Tewatia"
+        ],
+        "Bowlers": [
+            "Mohammed Siraj", "Rashid Khan", "Kagiso Rabada", "Gurnoor Brar", 
+            "Ishant Sharma", "Jayant Yadav", "Manav Suthar", "Arshad Khan", 
+            "Prasidh Krishna", "R Sai Kishore", "Washington Sundar", "Jason Holder", 
+            "Ashok Sharma", "Luke Wood", "Prithvi Raj", "Rahul Tewatia"
+        ]
+    },
+    "KKR": {
+        "Batters": [
+            "Sunil Narine", "Rinku Singh", "Ajinkya Rahane", "Angkrish Raghuvanshi", 
+            "Anukul Roy", "Manish Pandey", "Ramandeep Singh", "Rovman Powell", 
+            "Finn Allen", "Rachin Ravindra", "Tim Seifert", "Rahul Tripathi"
+        ],
+        "Bowlers": [
+            "Sunil Narine", "Harshit Rana", "Cameron Green", "Mustafizur Rahman", 
+            "Umran Malik", "Vaibhav Arora", "Varun Chakravarthy", "Matheesha Pathirana", 
+            "Tejasvi Singh", "Akash Deep", "Prashant Solanki", "Kartik Tyagi", 
+            "Sarthak Ranjan", "Daksh Kamra", "Cameron Green", "Blessing Muzarabani", "Navdeep Saini"
+        ]
+    },
+    "SRH": {
+        "Batters": [
+            "Travis Head", "Heinrich Klaasen", "Abhishek Sharma", "Ishan Kishan", 
+            "Nitish Kumar Reddy", "Kamindu Mendis", "Liam Livingstone", "Jack Edwards", 
+            "Rahul Tripathi", "Smaran Ravichandran"
+        ],
+        "Bowlers": [
+            "Pat Cummins", "Aniket Verma", "Brydon Carse", "Eshan Malinga", 
+            "Harsh Dubey", "Harshal Patel", "Jaydev Unadkat", "Zeeshan Ansari", 
+            "Salil Arora", "Shivam Mavi", "Shivang Kumar", "Praful Hinge", 
+            "Amit Kumar", "Sakib Hussain", "Nitish Kumar Reddy", "Liam Livingstone"
+        ]
+    },
+    "LSG": {
+        "Batters": [
+            "Rishabh Pant", "Nicholas Pooran", "Aiden Markram", "Ayush Badoni", 
+            "Abdul Samad", "Matthew Breetzke", "Josh Inglis", "Akshat Raghuwanshi", "Shahbaz Ahmed"
+        ],
+        "Bowlers": [
+            "Mohammed Shami", "Wanindu Hasaranga", "Mitchell Marsh", "Akash Singh", 
+            "Arjun Tendulkar", "Arshin Kulkarni", "Avesh Khan", "Mayank Yadav", 
+            "Mohsin Khan", "Shahbaz Ahmed", "Naman Tiwari", "Anrich Nortje", 
+            "Prince Yadav", "Mitchell Marsh", "M Siddharth", "Digvesh Rathi", "Mukul Choudhary"
+        ]
+    },
+    "RR": {
+        "Batters": [
+            "Yashasvi Jaiswal", "Dhruv Jurel", "Donovan Ferreira", "Lhuan-Dre Pretorius", 
+            "Riyan Parag", "Shimron Hetmyer", "Shubham Dubey", "Vaibhav Suryavanshi", 
+            "Ravindra Jadeja", "Sam Curran"
+        ],
+        "Bowlers": [
+            "Ravindra Jadeja", "Sam Curran", "Ravi Bishnoi", "Jofra Archer", 
+            "Kwena Maphaka", "Nandre Burger", "Sandeep Sharma", "Tushar Deshpande", 
+            "Yudhvir Singh Charak", "Adam Milne", "Ravi Singh", "Sushant Mishra", 
+            "Kuldeep Sen", "Vignesh Puthur", "Brijesh Sharma"
+        ]
+    },
+    "DC": {
+        "Batters": [
+            "KL Rahul", "Nitish Rana", "Abishek Porel", "Ajay Mandal", "Ashutosh Sharma", 
+            "Karun Nair", "Sameer Rizvi", "Tristan Stubbs", "Pathum Nissanka", 
+            "David Miller", "Ben Duckett", "Prithvi Shaw", "Axar Patel"
+        ],
+        "Bowlers": [
+            "Mitchell Starc", "Axar Patel", "Kuldeep Yadav", "Dushmantha Chameera", 
+            "T Natarajan", "Mukesh Kumar", "Auqib Nabi Dar", "Lungi Ngidi", 
+            "Kyle Jamieson", "Sahil Parikh", "Vipraj Nigam", "Madhav Tiwari"
+        ]
+    },
+    "PBKS": {
+        "Batters": [
+            "Shreyas Iyer", "Kagiso Rabada", "Azmatullah Omarzai", "Harnoor Singh Pannu", 
+            "Musheer Khan", "Nehal Wadhera", "Prabhsimran Singh", "Priyansh Arya", 
+            "Shashank Singh", "Suryansh Shedge", "Vishnu Vinod"
+        ],
+        "Bowlers": [
+            "Arshdeep Singh", "Yuzvendra Chahal", "Marcus Stoinis", "Marco Jansen", 
+            "Harpreet Brar", "Lockie Ferguson", "Mitch Owen", "Pyla Avinash", 
+            "Vyshak Vijaykumar", "Xavier Bartlett", "Yash Thakur", "Pravin Dubey"
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "Vaibhav Suryavanshi": {
+        "role": "batter",
+        "avg": 35.5,
+        "sr": 168.2,
+        "source": "Smoothed U19 Proxy"
+    },
+    "Ayush Mhatre": {
+        "role": "batter",
+        "avg": 38.8,
+        "sr": 162.5,
+        "source": "Smoothed IPL 2025 Form"
+    },
+    "Angkrish Raghuvanshi": {
+        "role": "batter",
+        "avg": 51.6,
+        "sr": 158.1,
+        "source": "IPL 2026 Leaderboard"
+    },
+    "Yashasvi Jaiswal": {
+        "role": "batter",
+        "avg": 56.6,
+        "sr": 185.0,
+        "source": "2026 Orange Cap Form"
+    },
+    "Sameer Rizvi": {
+        "role": "batter",
+        "avg": 53.3,
+        "sr": 172.4,
+        "source": "2026 Breakout Form"
+    },
+    "Ravi Bishnoi": {
+        "role": "bowler",
+        "econ": 7.4,
+        "wkt_avg": 2.3,
+        "source": "2026 Purple Cap Form"
+    }
+}
