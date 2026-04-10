@@ -2,9 +2,12 @@ fastapi==0.135.3
 uvicorn==0.43.0
 pydantic==2.12.5
 catboost==1.2.10
+xgboost==3.0.0
+lightgbm==4.6.0
 pandas==3.0.2
 numpy==2.4.4
 scikit-learn==1.8.0
 python-multipart==0.0.9
 gunicorn==25.3.0
 python-dotenv==1.2.2
+joblib==1.5.3
